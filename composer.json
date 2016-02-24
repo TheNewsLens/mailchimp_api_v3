@@ -1,8 +1,6 @@
 {
     "name": "fufukwang/mailchimp_apiv3",
     "description": "mailchimp api v3 using php curl",
-    "version":"1.0-dev",
-    "type": "library",
     "keywords": [
         "mailchimp",
         "api",
@@ -24,6 +22,5 @@
     "require": {
         "php": ">=5.5.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
