@@ -1,6 +1,7 @@
 {
     "name": "fufukwang/mailchimp_apiv3",
     "description": "mailchimp api v3 using php curl",
+    "version":"1.0-dev",
     "type": "library",
     "keywords": [
         "mailchimp",
