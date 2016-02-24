@@ -36,7 +36,7 @@ class Mailchimp
 
     private function getdatabycurl($data,$listid,$met='',$new=true){
         $auth = base64_encode( 'user:'.$this->apikey );
-        $userid = $new ? md5($data['email_address']) : '';
+        $userid = $new ? '' : md5($data['email_address']);
         $json_data = json_encode($data);
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, 'https://'.$this->server.'api.mailchimp.com/3.0/lists/'.$listid.'/members/'.$userid);
