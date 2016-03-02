@@ -17,10 +17,7 @@ class Mailchimp
 
     function subscribe( $listid, $data) {
         $data['apikey'] = $this->apikey;
-dd($data);
 
-print_r($data);
-exit();
         return $this->getdatabycurl($data,$listid);
     }
 
